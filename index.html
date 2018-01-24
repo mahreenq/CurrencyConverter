@@ -6,29 +6,24 @@
 		<link type="text/css" rel="stylesheet" href="./dist/css/build.css" />
 	</head>
 	<body class=>
-	
-			<div class = "coverter">
-			
+			<div class = "converter">
 				<div id="from"> FROM </div>
 				<div id="to"> TO </div>
-				<div> AMOUNT <input type="number" id="toConvert" /></div>
+				<div> <input type="number" id="toConvert" placeholder="Value to Convert" /></div>
 				<button type="button"  onclick="myFunction()" >Calculate</button>
 				
 				<div> Conversion Value : <span id="convertedValue"></span></span></div>
 				
 							<script>
-							function myFunction() {
-								var fromCurrency = document.getElementById("fromSelect").value;
-								var toCurrency = document.getElementById("toSelect").value;
-								var toConvertAmount = document.getElementById("toConvert").value;
-								var converted= toConvertAmount /fromCurrency *toCurrency;
-								document.getElementById("convertedValue").innerHTML = converted.toFixed(2);
-							}
+								function myFunction() {
+									var fromCurrency = document.getElementById("fromSelect").value;
+									var toCurrency = document.getElementById("toSelect").value;
+									var toConvertAmount = document.getElementById("toConvert").value;
+									var converted= toConvertAmount /fromCurrency *toCurrency;
+									document.getElementById("convertedValue").innerHTML = converted.toFixed(2);
+								}
 							</script>
 				</div>
-		
-		
-
 		<footer >
 			
 		</footer>
