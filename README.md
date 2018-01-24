@@ -1,8 +1,4 @@
-# New York Times (Eric Gregor)
+Currency Converter
 
-New York Times news articles.
-
-Technologies Used:
-
-- HTML, CSS, SASS, JavaScript, jQuery
-- Ajax API call
+HTML, CSS, SASS, JavaScript, jQuery
+Ajax API call
