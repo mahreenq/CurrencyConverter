@@ -12,3 +12,10 @@ This currency converter uses an Ajax API call to receieve currency echange rates
 <br>
 <img  style="width:50% !important;"src="/assets/screenshot 03.png">
 <br>
+
+<style>
+
+img {
+    width:50%;
+}
+</style>
