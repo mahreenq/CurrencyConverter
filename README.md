@@ -1,6 +1,9 @@
 Currency Converter
 <br>
-This currency converter uses an Ajax API call to receieve currency echange rates
+HTML, CSS, SASS, JavaScript, jQuery, Ajax API Call
 <br>
-HTML, CSS, SASS, JavaScript, jQuery
-<br>Ajax API call
+<br>
+This currency converter uses an Ajax API call to receieve currency echange rates.
+<br>
+
+<img src="/assets/screenshot 01.png">
