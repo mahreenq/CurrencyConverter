@@ -6,9 +6,9 @@ HTML, CSS, SASS, JavaScript, jQuery, Ajax API Call
 This currency converter uses an Ajax API call to receieve currency echange rates.
 <br>
 
-<img  src="/assets/screenshost 01.png">
+<img  src="/assets/screenshot 01.png">
 <br>
-<img  src="/assets/screensshot 02.png">
+<img  src="/assets/screenshot 02.png">
 <br>
-<img  src="/assets/screensshot 03.png">
+<img  src="/assets/screenshot 03.png">
 <br>
