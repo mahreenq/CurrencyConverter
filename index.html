@@ -10,19 +10,10 @@
 				<div id="from" class=" from padding-xsm"> FROM <br> </div>
 				<div id="to" class="to padding-xsm"> TO <br>  </div>
 				<div class="toConvert padding-xsm"> <input type="number" id="toConvert" placeholder="Value to Convert" /></div>
-				<div class=" button padding-xsm"><button class="" type="button"  onclick="myFunction()" >Calculate</button> </div>
+				<div class=" button padding-xsm"><button id="calculateButton" type="button"  onclick="myFunction()" >Calculate</button> </div>
 				
 				<div class=" converted padding-xsm"> <h2>Conversion Value : <span id="convertedValue"></span></span> </h2></div>
-				
-							<script>
-								function myFunction() {
-									var fromCurrency = document.getElementById("fromSelect").value;
-									var toCurrency = document.getElementById("toSelect").value;
-									var toConvertAmount = document.getElementById("toConvert").value;
-									var converted= toConvertAmount /fromCurrency *toCurrency;
-									document.getElementById("convertedValue").innerHTML = converted.toFixed(2);
-								}
-							</script>
+						
 				</div>
 		<footer >
 			

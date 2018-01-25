@@ -1,4 +1,5 @@
 
+//AJAX CALL FOR EXCHANGE RATES
 $.ajax({
 	url: "http://api.fixer.io/latest",
 	method: 'GET',
@@ -55,3 +56,16 @@ $.ajax({
   });
 
 
+
+  // CALCULATE CONVERTED VALUE ON CLICK OF BUTTON
+
+  document.getElementById("calculateButton").onclick = myFunction();
+
+   function myFunction() {
+		var fromCurrency = document.getElementById("fromSelect").value;
+		var toCurrency = document.getElementById("toSelect").value;
+		var toConvertAmount = document.getElementById("toConvert").value;
+		var converted= toConvertAmount /fromCurrency *toCurrency;
+
+	document.getElementById("convertedValue").innerHTML = converted.toFixed(2);
+}
