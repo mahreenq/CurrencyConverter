@@ -6,13 +6,13 @@
 		<link type="text/css" rel="stylesheet" href="./dist/css/build.css" />
 	</head>
 	<body class=>
-			<div class = "converter">
-				<div id="from"> FROM </div>
-				<div id="to"> TO </div>
-				<div> <input type="number" id="toConvert" placeholder="Value to Convert" /></div>
-				<button type="button"  onclick="myFunction()" >Calculate</button>
+			<div class = "converter padding-sm">
+				<div id="from" class=" from padding-xsm"> FROM <br> </div>
+				<div id="to" class="to padding-xsm"> TO <br>  </div>
+				<div class="toConvert padding-xsm"> <input type="number" id="toConvert" placeholder="Value to Convert" /></div>
+				<div class=" button padding-xsm"><button class="" type="button"  onclick="myFunction()" >Calculate</button> </div>
 				
-				<div> Conversion Value : <span id="convertedValue"></span></span></div>
+				<div class=" converted padding-xsm"> <h2>Conversion Value : <span id="convertedValue"></span></span> </h2></div>
 				
 							<script>
 								function myFunction() {
